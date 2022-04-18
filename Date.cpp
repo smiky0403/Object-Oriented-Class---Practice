@@ -1,24 +1,9 @@
 #include "Date.h"
 
-// struct Clock{
-//   int hour{10};
-//   int min{29};
-// };
-
 Date::Date(int day, int month, int year) {
   Year(year);
   Month(month);
   Day(day);
- // Clock clock;
-}
-
-void Date::SetClock(int hour, int min){
-  clock_.hour = hour;
-  clock_.min = min;
-}
-
-Clock Date::GetClock(){
-  return clock_;
 }
 
 bool Date::LeapYear(int year) const {
