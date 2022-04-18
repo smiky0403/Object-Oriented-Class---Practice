@@ -1,10 +1,5 @@
 #include "Date.h"
 
-// struct Clock{
-//   int hour{10};
-//   int min{29};
-// };
-
 Date::Date(int day, int month, int year) {
   Year(year);
   Month(month);
